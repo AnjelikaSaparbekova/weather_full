@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../constants/app_colors.dart';
+
 class CustomIconsButton extends StatelessWidget {
   const CustomIconsButton({
     required this.icon,
@@ -17,7 +19,7 @@ class CustomIconsButton extends StatelessWidget {
       onPressed: onPressed,
       icon: Icon(
         icon,
-        color: Colors.amber,
+        color: AppColors.amber,
         size: 60,
       ),
     );
